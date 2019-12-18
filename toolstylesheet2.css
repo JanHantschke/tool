@@ -1,0 +1,95 @@
+.Logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  filter: invert(1) drop-shadow(5px 5px 3px rgba(0,0,0,0.7));
+}
+
+.flex-container-links {
+ display:flex;
+ justify-content: center;
+  letter-spacing: 8px;
+}
+
+.news {
+ font-size: 25px;
+ font-family: 'Abel';
+ 
+}
+
+.geschichte {
+ padding-right: 70px;
+ padding-left: 70px;
+ font-size: 25px;
+ font-family: 'Abel';
+ color: #000000;
+ 
+}
+
+.alben {
+ font-size: 25px;
+ font-family: 'Abel';
+ padding-left: 70px;
+}
+
+.mehr {
+ font-size: 25px;
+ font-family: 'Abel';
+}
+
+.flex-container-alben {
+ padding-top: 170px;
+ display:flex;
+ justify-content: center;
+ text-align: center;
+ font-size: 17px;
+ color: #8a8a8a;
+ font-family: 'Abel';
+ letter-spacing: 4px;
+}
+
+a {
+ color: #8a8a8a;
+}
+
+.10000days {
+}
+
+.lateralus {
+ padding-left: 50px;
+}
+
+.aenima {
+ padding-left: 50px;
+ padding-right: 50px;
+}
+
+.undertow {
+ padding-right: 50px;
+}
+
+.opiate {
+
+}
+
+html {
+ background:url(background2.jpg);
+}
+
+.cover {
+ width: 160px;
+ padding-bottom: 10px;
+ border: 7px solid #000000;
+ outline: 1px solid #292929;
+ background-color: black;
+}
+
+
+img {
+ padding-bottom: 10px;
+}
+
+
+
+

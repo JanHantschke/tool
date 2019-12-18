@@ -1,0 +1,255 @@
+.Logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  filter: invert(1) drop-shadow(5px 5px 3px rgba(0,0,0,0.7));
+}
+
+.flex-container-links {
+ display:flex;
+ justify-content: center;
+ letter-spacing: 8px;
+}
+
+a:hover { text-shadow: 0 0 5px #ffffff; }
+
+.impressumueberschrift {
+ margin-top: 70px;
+ text-align: center;
+ color: white;
+ font-family: "Dekar";
+ text-shadow:  2px  2px 2px black;
+ font-size: 32px;
+}
+
+.impressumtext {
+ display:block;
+ margin-top: 120px;
+ margin-left: 500px;
+ color: white;
+ font-family: "Dekar";
+ text-shadow:  2px  2px 2px black;
+ font-size: 40px;
+}
+
+@font-face { font-family: "Dekar";
+             src: url('Dekar-Light.woff2') format('woff2'); 
+			 url:('Dekar.woff2') format('woff2'); 
+			 }
+			 
+.news {
+ font-size: 25px;
+ font-family: 'Abel';
+ 
+}
+
+.geschichte {
+ padding-right: 70px;
+ padding-left: 70px;
+ font-size: 25px;
+ font-family: 'Abel';
+ color: #000000;
+ 
+}
+
+.alben {
+ font-size: 25px;
+ font-family: 'Abel';
+ padding-left: 70px;
+}
+
+.mehr {
+ font-size: 25px;
+ font-family: 'Abel';
+}
+
+.flex-container-alben {
+ padding-top: 170px;
+ display:flex;
+ justify-content: center;
+ text-align: center;
+ font-size: 17px;
+ color: #8a8a8a;
+ font-family: 'Abel';
+ letter-spacing: 4px;
+}
+
+a {
+ color: #8a8a8a;
+}
+
+.10000days {
+}
+
+.lateralus {
+ padding-left: 50px;
+}
+
+.aenima {
+ padding-left: 50px;
+ padding-right: 50px;
+}
+
+.undertow {
+ padding-right: 50px;
+}
+
+.opiate {
+
+}
+
+html {
+ background:url(background2.jpg);
+}
+
+.cover {
+ width: 160px;
+ padding-bottom: 10px;
+ border: 7px solid #000000;
+ outline: 1px solid #292929;
+ background-color: black;
+}
+
+
+img {
+ padding-bottom: 10px;
+}
+
+.parallax {
+ background-image: url("background2.jpg"); 
+ min-height: 500px; 
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height:1000px;
+ background-color:black;
+ font-size:36px;
+ background-position:0px 70px;
+ background-repeat:repeat;
+}
+
+.parallax2 {
+ background-image: url("background6.jpg"); 
+ min-height: 500px; 
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height:1300px;
+ background-color:black;
+ font-size:36px;
+ background-position:0px 70px;
+ background-repeat:repeat;
+}
+
+* {
+margin: 0;
+padding: 0
+}
+
+.flex-container-text {
+ padding-top: 150px;
+}
+
+.email {
+ padding-top: 10px;
+ padding-bottom:10px;
+ background-color:rgba(0, 0, 0, 0.60);
+ border: none;
+ outline: none;
+ border-bottom: 1px solid gray;
+ color: #fff;
+ font-size: 18px;
+ width: 500px;
+ font-family: "Dekar";
+}
+
+
+.text {
+ padding-top: 10px;
+ padding-bottom:10px;
+ background-color:rgba(0, 0, 0, 0.60);
+ border: none;
+ outline: none;
+ border-bottom: 1px solid gray;
+ color: white;
+ font-size: 18px;
+ width: 500px;
+ font-family: "Dekar";
+ height: 510x;
+}
+
+.submit {
+ padding-bottom:10px;
+ padding-top:10px;
+ background-color:rgba(0, 0, 0, 0.75);
+ border: none;
+ outline: none;
+ border-bottom: 1px solid gray;
+ color: #fff;
+ font-size: 18px;
+ width: 500px;
+ font-family: "Dekar";
+}
+
+.field {
+ text-align: center;
+}
+
+.submit:hover {
+ background-color:rgba(60, 60, 60, 0.75);
+ cursor: pointer;
+}
+
+.footerline {
+  background-color: #454545;
+  height: 1px;
+}
+
+.footer {
+ background-color: #121212;
+ height: 110px;
+}
+
+.footer {
+
+  padding-top: 7px;
+  font-family: 'Abel';
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+
+.kontakt {
+ padding-left:420px;
+ padding-right: 17px;
+ float: left;
+
+}
+
+.strich {
+ float: left;
+ color: #8a8a8a;
+}
+
+.impressum {
+ padding-left: 17px;
+  float:left;
+}
+
+.name {
+ padding-right: 420px;
+ float: right;
+}
+
+
+
+
+
+
+
+
+
+
+

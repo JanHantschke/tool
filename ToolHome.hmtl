@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html>
+
+	<head>
+		<link rel="stylesheet" href="toolstylesheet.css">
+		<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+		<title> Tool </title>
+		<style type="text/css">a {text-decoration: none}</style>
+	</head>
+	<body>
+	
+		<img src="Tool.png" class="Logo" width="50%" height="50%" >
+		<div class="flex-container-links">
+			<div class="news"> 
+				<a href="news">News</a> 
+			</div> 
+			<div class="alben"> 
+				<a href="alben">Alben</a> 
+			</div>
+			<div class="geschichte"> 
+				<a href="geschichte">Geschichte</a> 
+			</div>
+			<div class="mehr"> 
+				<a href="mehr">Mehr</a> 
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,353 @@
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  filter: invert(1) drop-shadow(5px 5px 3px rgba(0,0,0,0.7));
+  width: 52.5%;
+  padding-bottom: 20px;
+}
+
+.header {
+ z-index:10;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color:rgba(0, 0, 0, 0.50);
+}
+
+.flex-container-links {
+ display:flex;
+ justify-content: center;
+ letter-spacing: 8px;
+}
+
+.news {
+ font-size: 25px;
+ font-family: 'Abel';
+ 
+}
+
+.geschichte {
+ padding-right: 70px;
+ padding-left: 70px;
+ font-size: 25px;
+ font-family: 'Abel';
+ color: #000000;
+ 
+}
+
+.alben {
+ font-size: 25px;
+ font-family: 'Abel';
+ padding-left: 70px;
+}
+
+.mehr {
+ font-size: 25px;
+ font-family: 'Abel';
+}
+
+.flex-container-alben {
+ padding-top: 170px;
+ display:flex;
+ justify-content: center;
+ text-align: center;
+ font-size: 17px;
+ color: #8a8a8a;
+ font-family: 'Abel';
+ letter-spacing: 4px;
+}
+
+a {
+ color: #8a8a8a;
+}
+
+.10000days {
+}
+
+.lateralus {
+ padding-left: 50px;
+}
+
+.aenima {
+ padding-left: 50px;
+ padding-right: 50px;
+}
+
+.undertow {
+ padding-right: 50px;
+}
+
+.opiate {
+
+}
+
+html {
+ background:url(background2.jpg);
+}
+
+.cover {
+ width: 160px;
+ padding-bottom: 10px;
+ border: 7px solid #000000;
+ outline: 1px solid #292929;
+ background-color: black;
+}
+
+.cover2 {
+ width: 400px;
+ height: 400px;
+ border: 7px solid #000000;
+ outline: 1px solid #292929;
+ font-size: 35px;
+ color: #8a8a8a;
+ font-family: 'Abel';
+ letter-spacing: 6px;
+ float: left;
+ margin-right: 30px;
+}
+
+.flex {
+ display: flex;
+ position:absolute;
+ top: 1380px;
+ left: 420px;
+}
+
+.flex2 {
+ display: flex;
+ position:absolute;
+ top: 2460px;
+ left: 420px;
+}
+
+.flex3 {
+ display: flex;
+ position:absolute;
+ top: 3540px;
+ left: 420px;
+}
+
+.flex4 {
+  display: flex;
+ position:absolute;
+ top: 4620px;
+ left: 420px;
+}
+
+.flex5 {
+ display: flex;
+ position:absolute;
+ top: 5700px;
+ left: 420px;
+}
+
+
+.lieder li {
+ border-bottom: 1px solid;
+ width: 700px;
+ font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+ color: #f7f7f7;
+    text-shadow:  1px  1px 1px black,
+                  1px -1px 1px black,
+                 -1px  1px 1px black,
+                 -1px -1px 1px black;
+ font-size: 18px;
+ border-bottom-color: #303030;
+ padding-bottom: 8px;
+ padding-top: 8px;
+ width: 500px;
+ font-family: 'Abel';
+  letter-spacing: 1px;
+}
+
+.album {
+  color: white;
+  font-size: 23px;
+  font-family: Dekar;
+  margin-bottom: 20px;
+    letter-spacing: 4px;
+  text-shadow:  1px  1px 1px black,
+                  1px -1px 1px black,
+                 -1px  1px 1px black,
+                 -1px -1px 1px black;
+}
+
+.datum {
+ color: white;
+ font-size: 17px;
+ font-family: Dekar;
+ font-weight: 600;
+   letter-spacing: 2px;
+   text-shadow:  1px  1px 1px black,
+                  1px -1px 1px black,
+                 -1px  1px 1px black,
+                 -1px -1px 1px black;
+}
+
+.lieder ul {
+ list-style: none;
+}
+
+.text { 
+z-index: 9;
+}
+
+.textbg {
+   padding: 20px;
+   background-color:rgba(0, 0, 0, 0.25);
+   border-radius: 10px;
+}
+
+a:hover { text-shadow: 0 0 5px #ffffff; }
+
+@font-face { font-family: "Dekar";
+             src: url('Dekar-Light.woff2') format('woff2'); 
+			 url:('Dekar.woff2') format('woff2'); 
+			 }
+			
+
+
+img {
+ padding-bottom: 10px;
+}
+
+.parallax {
+ background-image: url("background2.jpg"); 
+ min-height: 500px; 
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height:1080px;
+ background-color:black;
+ font-size:36px;
+ background-position:0px 70px;
+ background-repeat:repeat;
+}
+
+.parallax2 {
+ background-image: url("background4.jpg"); 
+ min-height: 500px; 
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height:1080px;
+ background-color:black;
+ font-size:36px;
+}
+
+.parallax3 {
+ background-image: url("bglateralus.jpg");
+ min-height: 500px; 
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height:1080px;
+ background-color:black;
+ font-size:36px;
+ background: filter: blur(10px);
+}
+
+
+.parallax4 {
+ background-image: url("bgaenima2.png"); 
+ min-height: 500px; 
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height:1080px;
+ background-color:black;
+}
+
+.parallax5 {
+ background-image: url("bgundertow.png"); 
+ min-height: 500px; 
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height:1080px;
+ background-color:black;
+ font-size:36px;
+}
+
+.parallax6 {
+ background-image: url("bgopiate.jpg"); 
+ min-height: 500px; 
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height:1080px;
+}
+
+* {
+margin: 0;
+padding: 0
+}
+
+.flex-container-text {
+ padding-top: 150px;
+ display:flex;
+ flex-direction: column;
+}
+
+.email {
+ padding-bottom:10px;
+}
+
+.footerline {
+  background-color: #454545;
+  height: 1px;
+}
+
+.allfooter {
+
+}
+
+.footer {
+ background-color: #121212;
+ height: 110px;
+}
+
+.footer {
+  padding-top: 7px;
+  font-family: 'Abel';
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+
+.kontakt {
+ padding-left:420px;
+ padding-right: 17px;
+ float: left;
+
+}
+
+.strich {
+ float: left;
+ color: #8a8a8a;
+ padding-right: 17px;
+}
+
+.name {
+ padding-right: 420px;
+ float: right;
+}
+
+
+
+
+
+
+
+

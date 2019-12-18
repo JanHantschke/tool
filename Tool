@@ -1,0 +1,55 @@
+<!DOCTYPE html> 
+<html>
+
+	<head>
+		<link rel="stylesheet" href="toolstylesheet.css">
+		<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+		<title> Tool </title>
+		<style type="text/css">a {text-decoration: none}</style>
+	</head>
+	<body>
+	
+		<img src="Tool.png" class="Logo" width="50%" height="50%" >
+		<div class="flex-container-links">
+			<div class="news"> 
+				<a href="news" style="color: #8a8a8a">News</a> 
+			</div> 
+			<div class="geschichte"> 
+				<a href="geschichte" style="color: #8a8a8a">Geschichte</a> 
+			</div>
+			<div class="mehr"> 
+				<a href="mehr" style="color: #8a8a8a">Mehr</a> 
+			</div>
+		</div>
+		
+		<div class="flex-container-alben">
+			<div class="10000days">
+				<img src="10000daysgif.gif" width="160px" height="160px"><br> 
+				<a href="10000days" style="color: #8a8a8a">10.000 Days</a> 
+			</div>
+			
+			<div class="lateralus">
+				<img src="lateralusgif.gif" width="160px" height="160px"><br> 
+				<a href="lateralus" style="color: #8a8a8a">Lateralus</a> 
+			</div> 
+			
+			<div class="aenima">
+				<img src="aenimagif.gif" width="160px" height="160px"><br>
+				<a href="aenima" style="color: #8a8a8a">Aenima</a> 
+			</div>
+			
+			<div class="undertow">
+				<div class="Cover">
+					<img src="undertowgif.gif" width="160px" height="160px"> 
+				</div>
+				<a href="undertow" style="color: #8a8a8a">Undertow</a> 
+			</div>
+			
+			<div class="opiate"> 
+				
+				<img src="opiategif.gif" width="160px" height="160px"><br> 
+				<a href="opiate" style="color: #8a8a8a">Opiate</a>
+			</div>
+		</div>
+	</body>
+</html>
